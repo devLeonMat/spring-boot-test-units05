@@ -77,7 +77,6 @@ public class RestaurantServiceImplTest {
         final Restaurant restaurant = new Restaurant();
         Mockito.when(restaurantRepository.findAll()).thenReturn(Collections.singletonList(restaurant));
 //        Mockito.when(restaurantRepository.findAll()).thenReturn(Arrays.asList(restaurant));
-
         final List<RestaurantRest> response = restaurantServiceImpl.getRestaurants();
         Assert.assertNotNull(response);
         Assert.assertFalse(response.isEmpty());
