@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-test-units05
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: rleon
+Implementation-Vendor-Id: com.boot
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/spring-boot-test-units05
+Created-By: Maven Integration for Eclipse
+
